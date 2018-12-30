@@ -11,6 +11,49 @@
       body{
         background-image: url("Record.jpg");
       }
+      .leftPad{
+        padding: 25px 35px 25px;
+        background: #000000;
+        color: white;
+        text-shadow: 1px 1px #f6ff05;
+      }
+      .btn{
+        border: none;
+        background-color: inherit;
+        font-size: 35px;
+        font-family: New Century Schoolbook;
+        font-weight: bold;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-block;
+        text-shadow: 1px 1px #f6ff05;
+      }
+      .btn:hover{
+        background: #eee;
+        color: #000000;
+        text-shadow: 1px 1px #000000;
+      }
+      .btn span{
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      .btn span:after{
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      .btn:hover span {
+        padding-right: 25px;
+      }
+      .btn:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
     </style>
 </head>
 <body>
@@ -45,8 +88,24 @@
     </nav>
 
     <p align="middle"><img src="NewAlbum.png"></p>
-    <div align="middle">
-      <font size="6" face="Times New Roman">Place new album cover here</font>
+    <p align="middle"><img src="albumcover.jpg" width="500" height="500"></p>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <font size="6" face="impact" color="white">ON TOUR NOW!</font>
+        </div>
+        <div class="col">
+          <img src="spotifyW.png" width="25px" height="25px">
+          <img src="appleL.png" width="83px" height="75px">
+          <img src="gpL.png" width="75px" height="55px">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <a href="Shop.html"><button class="btn" style="vertical-align:"middle"><span>Buy Your Tickets Now</span></button></a>
+          <a href="Songs.html"><button class="btn" style="vertical-align:"middle"><span>Purchase Music</span></button></a>
+        </div>
+      </div>
     </div>
 
     <div style="text-align: right">
