@@ -1,4 +1,42 @@
-.list-group-item list-group-item-action list-group-item-dark{
-	background-color: black;
-}
 
+	
+    .btn{
+        border: none;
+        background-color: inherit;
+        font-size: 35px;
+        font-family: New Century Schoolbook;
+        font-weight: bold;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-block;
+        text-shadow: 1px 1px #f6ff05;
+        margin-left: auto;
+ 		margin-right: auto;
+    }
+    .btn:hover{
+        background: #eee;
+        color: #000000;
+        text-shadow: 1px 1px #000000;
+    }
+    .btn span{
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+    .btn span:after{
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+    .btn:hover span {
+        padding-right: 25px;
+    }
+    .btn:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+    

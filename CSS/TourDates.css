@@ -1,0 +1,80 @@
+    .hoverHide:hover{
+      	display:none;
+      }
+      .hoverShow:hover{
+      	display:show;
+      }
+      .wrapper{
+        text-align: center;
+      }
+      .button{
+        position:absolute;
+        right:50%;
+      }
+      h1{
+      	padding-top: 75px;
+      	padding-bottom: 75px;
+      	text-align: center;
+      	font-family: DejaVu Sans Mono;
+      	font-size: 8vw;
+      	color: #ffffff;
+      	text-shadow:0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+      }
+      h4{
+      	color: white;
+      	text-shadow: 2px 2px #000000;
+      	padding-bottom: 18px;
+      	font-family: tranquility;
+        font-size:4vw;
+      }
+      h2{
+      	padding-top: 50px;
+      	padding-bottom: 50px;
+      	text-align: center;
+      	font-family: OCR A Std;
+      	color: #fffa00;
+      	font-size: 7;
+      	text-shadow: 2px 2px #000000;
+      }
+      a:link{
+      	color: #42b0f4;
+      	text-decoration:none;
+      	text-shadow: 2px 2px #000000;
+      }
+      .grid-container {
+  		display: grid;
+  		grid-template-columns: auto auto auto;
+  		padding: 10px;
+	  }
+	  .grid-item {
+  		font-size: 30px;
+  		color: white;
+  		text-align: center;
+	  }
+	  .btn {
+  		border: none;
+  		background-color: rgba(256,256,256,0.5);
+  		font-size: 30px;
+  		font-family: New Century Schoolbook;
+  		font-weight: bold;
+  		text-shadow: 1px 1px #000000;
+  		color: #42b0f4;
+  		cursor: pointer;
+  		display: inline-block;
+	  }
+	  .btn:hover {background: #eee;}
+    .imgBack{
+    
+      border-radius:10px;
+    }
