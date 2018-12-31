@@ -6,59 +6,28 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <link rel = "stylesheet" type = text/CSS href = "css/MainPage.css">
     <title>Home</title>
-    <style type = "text/css">
-      body{
-        background-image: url("Record.jpg");
-      }
-      .leftPad{
+
+</head>
+<style>
+body{
+        background-image: url("images/Record.png");
+}
+.leftPad{
         padding: 25px 35px 25px;
         background: #000000;
         color: white;
         text-shadow: 1px 1px #f6ff05;
-      }
-      .btn{
-        border: none;
-        background-color: inherit;
-        font-size: 35px;
-        font-family: New Century Schoolbook;
-        font-weight: bold;
-        color: #ffffff;
-        cursor: pointer;
-        display: inline-block;
-        text-shadow: 1px 1px #f6ff05;
-      }
-      .btn:hover{
-        background: #eee;
-        color: #000000;
-        text-shadow: 1px 1px #000000;
-      }
-      .btn span{
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-      }
-      .btn span:after{
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-      }
-      .btn:hover span {
-        padding-right: 25px;
-      }
-      .btn:hover span:after {
-        opacity: 1;
-        right: 0;
-      }
-    </style>
-</head>
+    }
+</style>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="MainPage.html"><img src="Logo.png" width="40" height="40"></a>
+      <a class="navbar-brand" href="MainPage.html"><img src="images/Logo.png" width="40" height="40"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -86,22 +55,25 @@
         </ul>
       </div>
     </nav>
-
-    <p align="middle"><img src="NewAlbum.png"></p>
-    <p align="middle"><img src="albumcover.jpg" width="500" height="500"></p>
+  <p align="center";>
+    <img class = "center" src="images/NewAlbum.png">
+  </p>
+  <p  align="center";>
+    <img class = "center" src="images/albumcover.jpg" width="500" height="500">
+  </p>
     <div class="container">
-      <div class="row">
-        <div class="col">
-          <font size="6" face="impact" color="white">ON TOUR NOW!</font>
+      <div class="row" align = "center">
+        <div class="col" align = "center">
+          <p><font size="6" face="impact" color="white">ON TOUR NOW!</font></p>
         </div>
         <div class="col">
-          <img src="spotifyW.png" width="25px" height="25px">
-          <img src="appleL.png" width="83px" height="75px">
-          <img src="gpL.png" width="75px" height="55px">
+          <img src="images/spotifyW.png" width="25px" height="25px">
+          <img src="images/appleL.png" width="83px" height="75px">
+          <img src="images/gpL.png" width="75px" height="55px">
         </div>
       </div>
-      <div class="row">
-        <div class="col">
+      <div class="row" align = "center">
+        <div class="col" align = "center">
           <a href="Shop.html"><button class="btn" style="vertical-align:"middle"><span>Buy Your Tickets Now</span></button></a>
           <a href="Songs.html"><button class="btn" style="vertical-align:"middle"><span>Purchase Music</span></button></a>
         </div>
@@ -109,7 +81,7 @@
     </div>
 
     <div style="text-align: right">
-      <img src="TsaLogo.png" height="66" width="110">
+      <img src="images/TsaLogo.png" height="66" width="110">
     </div>
 </body>
 <!––These elements typically
