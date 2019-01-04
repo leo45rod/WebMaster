@@ -1,0 +1,31 @@
+ h2{
+ 	color: white;
+    text-shadow: 2px 2px #000000;
+    font-family: tranquility;
+    font-size:4vw;
+ }
+  h3{
+ 	color: white;
+    text-shadow: 2px 2px #000000;
+    padding-top: 18px;
+    padding-left: 20px;
+    font-family: tranquility;
+    font-size:3.5vw;
+
+
+ }
+ h4{
+ 	color: white;
+    text-shadow: 2px 2px #000000;
+    
+    font-family: tranquility;
+    font-size:3vw;
+
+ }
+ img{
+ 	padding: 2em;
+ 	border-radius: 10%;
+ }
+ div{
+ 	padding: 30px;
+ }
